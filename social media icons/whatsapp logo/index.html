@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Logo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            background-color: #EBE5DE;
+        }
+
+        .wrapper {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            background-color: #59CE72;
+            border-radius: 50%;
+            border: 5px solid whitesmoke;
+            box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.4);
+        }
+
+        .icon i {
+            color: white;
+            font-size: 4rem;
+            text-shadow: 0 10px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        .icon::before {
+            position: absolute;
+            bottom: -30px;
+            left: -20px;
+            transform: rotate(-47deg);
+            content: "";
+            height: 0;
+            width: 0;
+            border-top: 30px solid transparent;
+            border-right: 30px solid #59CE72;
+            border-bottom: 30px solid transparent;
+            border-left: 30px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="icon">
+            <i class='fa fa-phone'></i>
+        </div>
+    </div>
+</body>
+
+</html>
